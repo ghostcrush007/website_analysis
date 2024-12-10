@@ -1,6 +1,10 @@
 streamlit
-langchain
+langchain==0.0.318
 sentence-transformers
 faiss-cpu
 requests
 python-dotenv
+unstructured
+httpx
+html5lib
+beautifulsoup4
