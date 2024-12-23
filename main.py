@@ -1,6 +1,6 @@
 import time
 import streamlit as st
-import Groq
+from groq import Groq
 from langchain.document_loaders import UnstructuredURLLoader
 
 # Initialize Groq client
