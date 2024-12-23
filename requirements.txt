@@ -8,3 +8,4 @@ unstructured
 httpx
 html5lib
 beautifulsoup4
+groq
