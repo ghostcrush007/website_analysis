@@ -4,7 +4,7 @@ from groq import Groq
 from langchain.document_loaders import UnstructuredURLLoader
 
 # Initialize Groq client
-client = Groq(api_key="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")
+client = Groq(api_key="your groq api key")
 
 # Streamlit UI setup
 st.title("Query a Web Page Using Groq")
@@ -69,8 +69,7 @@ def query_model(chunk, question, max_tokens=512):
     return full_response
 
 # Example question input
-question = st.text_input("Enter your question", "can you tell me why honda is increasing its price to 2% from next january?")
-
+question = st.text_input("Enter your question")
 # Button to trigger the query process
 if st.button("Get Answer"):
     st.write("Processing...")
