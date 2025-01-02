@@ -47,7 +47,7 @@ def query_model(chunk, question, max_tokens=512):
     """Query the model with the given chunk and question."""
     # Make the request to the model
     completion = client.chat.completions.create(
-        model="llama-3.1-70b-versatile",
+        model="llama-3.3-70b-versatile",
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": f"Here is some information: {chunk}\n\nQuestion: {question}"}
